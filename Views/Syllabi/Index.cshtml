@@ -1,0 +1,57 @@
+@model IEnumerable<Curriculum.Models.Syllabus>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Ranks";
+}
+
+<p>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <a asp-action="Create">Create New</a>
+    }
+</p>
+<div class="row">
+    @foreach (var item in Model) {
+        <div class="col-md-4">
+            <h3>@Html.DisplayFor(modelItem => item.Rank)</h3>
+            <p>
+                @* <a asp-action="Details" asp-route-id="@item.Id"> *@
+                <a href="" data-toggle="modal" data-target="#syllabus-@Html.DisplayFor(modelItem => item.Id)-Modal">
+                    <img class="w-100 img-thumbnail" src="~/images/thumbnails/@Url.Content(item.Thumbnail)" />
+                </a>
+            </p>
+        </div>
+
+        <div class="modal fade" id="syllabus-@Html.DisplayFor(modelItem => item.Id)-Modal" tabindex="-1" aria-labelledby="LargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="syllabus-@Html.DisplayFor(modelItem => item.Id)-Modal-Label">
+                            @Html.DisplayFor(modelItem => item.Rank) Syllabus
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <dl class="row justify-content-center">
+                            <dd class = "col-sm-10">
+                                <img class="mw-100" src="~/images/@Url.Content(item.Media)" />
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="modal-footer">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                                <a class="btn btn-primary btn-sm" role="button" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                                <a class="btn btn-secondary btn-sm" role="button" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
