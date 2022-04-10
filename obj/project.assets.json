@@ -7805,25 +7805,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juan.rodriguez\\.nuget\\packages\\": {}
+    "C:\\Users\\juant\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Curriculum.csproj",
+      "projectUniqueName": "C:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Curriculum.csproj",
       "projectName": "Curriculum",
-      "projectPath": "C:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Curriculum.csproj",
-      "packagesPath": "C:\\Users\\juan.rodriguez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\obj\\",
+      "projectPath": "C:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Curriculum.csproj",
+      "packagesPath": "C:\\Users\\juant\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juant\\Projects\\dotnet\\Curriculum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\juan.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juant\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7895,7 +7896,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Curriculum.Migrations
 {
@@ -14,7 +15,9 @@ namespace Curriculum.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Rank = table.Column<string>(type: "TEXT", nullable: true),
                     Media = table.Column<string>(type: "TEXT", nullable: true),
-                    Thumbnail = table.Column<string>(type: "TEXT", nullable: true)
+                    Thumbnail = table.Column<string>(type: "TEXT", nullable: true),
+                    DateCreated = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    IsCurrent = table.Column<bool>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

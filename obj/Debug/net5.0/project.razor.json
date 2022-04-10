@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Curriculum.csproj",
+  "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Curriculum.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,113 +15619,118 @@
   "RootNamespace": "Curriculum",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Syllabi\\Create.cshtml",
-      "TargetPath": "Views\\Syllabi\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Syllabi\\Edit.cshtml",
-      "TargetPath": "Views\\Syllabi\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Syllabi\\Index.cshtml",
-      "TargetPath": "Views\\Syllabi\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Syllabi\\Delete.cshtml",
-      "TargetPath": "Views\\Syllabi\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Home\\About.cshtml",
-      "TargetPath": "Views\\Home\\About.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Syllabi\\Edit.cshtml",
+      "TargetPath": "Views\\Syllabi\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Syllabi\\Details.cshtml",
-      "TargetPath": "Views\\Syllabi\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Syllabi\\Create.cshtml",
+      "TargetPath": "Views\\Syllabi\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Syllabi\\Details.cshtml",
+      "TargetPath": "Views\\Syllabi\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Syllabi\\Delete.cshtml",
+      "TargetPath": "Views\\Syllabi\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Syllabi\\Archive.cshtml",
+      "TargetPath": "Views\\Syllabi\\Archive.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Syllabi\\Index.cshtml",
+      "TargetPath": "Views\\Syllabi\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\juan.rodriguez\\Personal\\dotnet\\Curriculum\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\juant\\Projects\\dotnet\\Curriculum\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

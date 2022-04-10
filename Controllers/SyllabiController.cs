@@ -26,6 +26,18 @@ namespace Curriculum.Controllers
             return View(await _context.Syllabus.ToListAsync());
         }
 
+        public async Task<IActionResult> Archive(string searchString)
+        {
+            var syllabi = from s in _context.Syllabus select s;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                syllabi = syllabi.Where(s => s.Rank.Contains(searchString));
+            }
+            
+            return View(await _context.Syllabus.OrderBy(x => x.Rank).ToListAsync());
+        }
+
         // GET: Syllabi/Details/5
         public async Task<IActionResult> Details(int? id)
         {
